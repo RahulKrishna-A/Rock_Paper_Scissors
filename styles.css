@@ -98,7 +98,7 @@ html{
     padding:2vw 2vw 0 2vw;
     display: flex;
     flex-direction: row;
-    border: 0.1vh dotted white;
+    /*border: 0.1vh dotted white;*/
     justify-content: space-around;
 
 }
@@ -132,19 +132,37 @@ html{
 
 .display.result{
     display: flex;
+    margin-top: 2vh;
+
     justify-content: center;
-    color: white;
+    color: #D8973C;
     height: 5vh;
-    margin-top: 0;
+
     padding-top: 0;
 
 }
 .display.choice{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: white;
     height: 5vh;
     margin-top: 0;
+    margin-bottom: 1vh;
+    padding-top: 0;
+
+}
+
+.display.cpuchoice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #BBCBCB;
+    height: 5vh;
+    margin-top: 0;
+    margin-bottom: 2vh;
     padding-top: 0;
 
 }
