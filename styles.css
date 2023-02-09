@@ -1,0 +1,150 @@
+html{
+    background-color:#000000 ;
+    background-size: cover;
+    /*background-color: rgba(256,256,256,0.9);*/
+    background-blend-mode: lighten;
+}
+
+#init a{
+    font-family: 'Reggae One', cursive;
+    font-size: 100px;
+    color: #B5FED9;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.tranfm{
+    transform: scale(1.2);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    height: 4vh;
+    display: flex;
+    padding-left: 2vw;
+
+}
+
+#header a{
+    font-size: 3vh;
+    color: #086375;
+    font-family: 'VT323', monospace;
+    padding-top: 0.5vh;
+    padding-left: 2vw;
+}
+#aboutme{
+    margin-left: auto;
+    margin-right: 2vw;
+}
+.gamescreen{
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+}
+.rules{
+    color: #B5FED9;
+    font-family: 'VT323', monospace;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    /*background-color: white;*/
+}
+
+.rules p{
+
+   margin-top: 4vh;
+    font-size: 1.35vw;
+}
+
+.gamespace{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw 0.5vw 0 0.5vw;
+    /*background-color: #B5FED9;*/
+    height: 60vh;
+}
+.display{
+    font-size: 1.9vw;
+    font-family: 'VT323', monospace;
+
+}
+
+.start{
+    color: #912F56 ;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vh;
+
+}
+
+.space{
+    width:80vw;
+    /*background-color: #B5FED9;*/
+    padding:2vw 2vw 0 2vw;
+    display: flex;
+    flex-direction: row;
+    border: 0.1vh dotted white;
+    justify-content: space-around;
+
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+
+
+}
+
+.playerss{
+    height: auto;
+    width: 9vw;
+
+}
+
+.playerss:hover{
+    scale: 1.2;
+}
+
+.comp p{
+    color: #FFB17A;
+    font-family: 'VT323', monospace;
+    font-size: 2vw;
+   align-self: center;
+    text-shadow: 1px 1px 1px  white;
+
+}
+
+.display.result{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 5vh;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+.display.choice{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 5vh;
+    margin-top: 0;
+    padding-top: 0;
+
+}

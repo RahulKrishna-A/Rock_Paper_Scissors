@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock-Game</title>
-  <script src="game.js"></script>
+  <script src="game.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+<!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
 </head>
 <body>
+<div id="container ">
+<!--    <div id="init" >-->
+<!--        <a>click here to start!</a>-->
+<!--    </div>-->
+
+ <div id="header">
+     <img src="./pics/joystick.png" alt="logo">
+     <a>ROCK PAPER SCISSORS</a>
+     <a id = "aboutme" href="https://github.com/RahulKrishna-A">ABOUT ME</a>
+ </div>
+
+    <div class="gamescreen">
+        <div class="rules">
+            <p>Rules:First To Score 5 wins</p>
+        </div>
+        <div class="gamespace">
+            <div class="display start">
+            <p>Make your choice!</p>
+            </div>
+            <div class="players">
+            <div class="space player">
+
+
+                <div class = "comp rp">
+                    <img class="playerss rock" src="./pics/rock2.png" alt="rock-icon">
+                    <p>Rock</p>
+                </div>
+                <div  class = "comp pp">
+                    <img class="playerss paper"  src="./pics/paper.png" alt="paper-icon">
+                    <p>paper</p>
+                </div>
+                <div class = "comp sp">
+                    <img  class="playerss scissor" src="./pics/scissor.png" alt="scissor-icon">
+                    <p>scissors</p>
+                </div>
+
+
+            </div>
+
+            </div>
+            </div>
+
+
+            <div class="display choice">
+hi
+            </div>
+            <div class="display result">
+                <p>You:0 CPU:0</p>
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
-</html>
+</html>       
